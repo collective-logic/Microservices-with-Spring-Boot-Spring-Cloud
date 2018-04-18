@@ -17,10 +17,10 @@ public class BlogServiceImpl implements BlogService {
 
     private BlogRepository blogRepository;
 
-    @Autowired
-    public BlogServiceImpl(BlogRepository blogRepository) {
-        this.blogRepository = blogRepository;
-    }
+        @Autowired
+        public BlogServiceImpl(BlogRepository blogRepository) {
+            this.blogRepository = blogRepository;
+        }
 
     @Override
     public List<Blog> getBlogs() {
